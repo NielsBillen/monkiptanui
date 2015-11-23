@@ -1,0 +1,61 @@
+#welcome {
+    font-family: navigation;
+    text-align: center;
+    margin: 4rem auto;
+}
+
+#picture {
+    flex: 1;
+    
+    display: flex;
+    align-items: flex-start;
+    align-content: center;
+    justify-content: center;
+    
+    width: 100%;
+    margin: auto;
+    
+    color: white;
+    
+    text-shadow:
+        -1px -1px 0px black,  
+        1px -1px 0px black,
+        -1px 1px 0px black,
+        1px 1px 0px black,
+        1px 1px 4px black;
+    
+    text-align: center;
+    font-family: heavy;
+    font-size: 5vw;
+        
+    background: url("images/into.jpg") no-repeat;
+    background-size: contain;
+    background-position: top;
+}
+
+@keyframes fade-and-slide-in { 
+    0% { 
+        opacity:0;
+        transform: translateY(100%);
+    } 
+    100% { 
+        opacity:1;
+        transform: translateX(0%);
+    }
+}
+
+.animation-fadein {
+    opacity: 0;
+    animation:fade-and-slide-in ease 1s;
+    animation-fill-mode: forwards;
+    animation-duration: 1s;
+    display: inline-block;
+}
+
+#irun {
+    animation-delay: 0s;
+}
+
+#doyou {
+    animation-delay: 1s;
+}
