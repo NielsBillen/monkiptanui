@@ -1,0 +1,37 @@
+table > tbody > tr > td:first-child {
+    font-weight: bold;
+    padding-right: 1rem;
+}
+
+#biography-header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    
+    margin: 1rem;
+}
+
+#biography-table {
+    margin-right: 1rem;
+}
+
+#biography-picture {
+    flex-grow: 1;
+    
+    background: url("images/family.jpg") no-repeat;
+    background-size: contain;
+    background-position: left;
+}
+
+#biography-picture-family {
+    margin-left: 1rem;
+    width: 15rem;
+    height: 15rem;
+    
+    border: 1px solid lightgray;
+    box-shadow: 0.2rem 0.2rem 0.5rem lightgray;
+}

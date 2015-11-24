@@ -1,0 +1,21 @@
+.report {
+    
+}
+
+.report-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 1rem 0rem;
+}
+
+.report-title {
+    flex-grow: 1;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right: 1rem;
+}
+
+.report-date {
+    
+}

@@ -18,8 +18,8 @@
 }
 
 @font-face {
-    font-family: heavy;
-    src: url("fonts/Raleway-Bold.ttf");
+    font-family: h1;
+    src: url("fonts/OpenSans-Bold.ttf");
 }
 
 /*-----------------------------------------------------------------------------
@@ -30,6 +30,7 @@
 html {
     width: 100%;
     height: 100%;
+    background-color: rgb(250, 250, 250);
 }
 
 /* make sure the body element fills the entire html element */
@@ -39,4 +40,29 @@ body {
     
     margin: 0;
     font-family: regular;
+}
+
+/* styling for the largest header */
+h1 {
+    color: skyblue;
+    font-family: h1;
+    font-weight: bold;
+}
+
+/* content */
+.paragraph {
+    background-color: white;
+    border: 1px solid rgba(135, 206, 235, 0.6);
+    
+    margin: 2rem auto;
+    
+    padding-top: 0.5rem;
+    padding-left:  2rem;
+    padding-right:  2rem;
+    padding-bottom: 2rem;
+    
+    max-width: 52rem;
+    text-align: justify;
+    
+    box-shadow: 0.2rem 0.2rem 0.2rem lightgray;
 }

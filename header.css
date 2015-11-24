@@ -33,9 +33,9 @@ header {
 
 nav {
     text-align: center;
-    background-color: slategray;
+    background-color: skyblue;
     font-family: header;
-    box-shadow: 0rem 0.2rem 0.2rem slategray;
+    box-shadow: 0rem 0.2rem 0.2rem lightgray;
 }
 
 nav > ul {
