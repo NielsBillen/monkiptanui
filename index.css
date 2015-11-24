@@ -1,38 +1,47 @@
-#welcome {
-    font-family: navigation;
-    text-align: center;
-    margin: 4rem auto;
+/*-----------------------------------------------------------------------------
+ * Styles for the index.html page
+ *---------------------------------------------------------------------------*/
+
+/* make sure that there is no vertical scrolling with flex layout */
+body {
+    display: flex;
+    flex-direction: column;
 }
 
+/* styling of the picture */
 #picture {
-    flex: 1;
+    /* background */
+    background: url("images/home.jpg") no-repeat;
+    background-size: cover;
+    background-position: top;
     
+    /* align content to center */
     display: flex;
-    align-items: flex-start;
     align-content: center;
+    align-items: center;
     justify-content: center;
     
+    /* fill up remaining space */
     width: 100%;
-    margin: auto;
-    
-    color: white;
-    
-    text-shadow:
-        -1px -1px 0px black,  
-        1px -1px 0px black,
-        -1px 1px 0px black,
-        1px 1px 0px black,
-        1px 1px 4px black;
-    
-    text-align: center;
-    font-family: heavy;
-    font-size: 5vw;
-        
-    background: url("images/into.jpg") no-repeat;
-    background-size: contain;
-    background-position: top;
+    flex-grow: 1;
 }
 
+/* styling for the text in the picture */
+#picture-text {
+    /* sizing */
+    width: 100%;
+    padding: 1rem;
+
+    background-color: rgba(0, 0, 0, 0.5);
+    
+    /* text sizing */
+    font-family: regular;
+    font-size: 5vw;
+    text-align: center;
+    color: white;
+}
+
+/* keyframes for the text animation */
 @keyframes fade-and-slide-in { 
     0% { 
         opacity:0;
@@ -44,7 +53,8 @@
     }
 }
 
-.animation-fadein {
+/* class for items animated with the fade-and-slide-in animation */
+.animation-fade-and-slide-in {
     opacity: 0;
     animation:fade-and-slide-in ease 1s;
     animation-fill-mode: forwards;
@@ -52,10 +62,12 @@
     display: inline-block;
 }
 
+/* let irun animate on site load */
 #irun {
     animation-delay: 0s;
 }
 
+/* delay the doyou with one second */
 #doyou {
     animation-delay: 1s;
 }
