@@ -1,0 +1,20 @@
+table > tbody > tr:first-child {
+    font-weight: bold;
+    font-family: h1;
+    text-align: left;
+}
+
+td {
+    padding-right: 1rem;
+    vertical-align: top;
+}
+
+.pr {
+    font-weight: bold;
+    font-family: h1;
+    color: lightcoral;
+}
+
+.date {
+    text-align: right;
+}
