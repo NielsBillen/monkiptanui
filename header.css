@@ -17,9 +17,12 @@ header {
     width: 10rem;
     height: 10rem;
     border-radius: 5rem;
+    border: 0.2em solid skyblue;
+    box-sizing: border-box;
     margin-right: 1rem;
     background: url("images/profile.jpg") no-repeat;
     background-size: contain;
+    box-shadow: 0em 0em 1em rgba(0, 0, 0, 0.8) inset;
 }
 
 #header-alias {

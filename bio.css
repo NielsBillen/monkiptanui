@@ -25,6 +25,7 @@ table > tbody > tr > td:first-child {
     background: url("images/family.jpg") no-repeat;
     background-size: contain;
     background-position: left;
+    box-shadow: 0em 0em 1em rgba(0, 0, 0, 0.8) inset;
 }
 
 #biography-picture-family {
