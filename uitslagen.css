@@ -1,0 +1,53 @@
+table > tbody > tr:first-child {
+    font-weight: bold;
+    font-family: h1;
+    text-align: left;
+}
+
+table {
+    border-collapse: collapse;
+    border: 1px solid lightgray;
+    box-shadow: 0.2rem 0.2rem 0.2rem lightgray;
+}
+
+tr {
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+}
+td {
+    padding-left: 1rem;
+    padding-top: 0.4rem;
+    padding-bottom: 0.4rem;
+    padding-right: 2rem;
+    vertical-align: top;
+}
+
+tr:nth-child(even) {
+    background-color: rgba(135, 206, 235, 0.75);
+}
+
+.result {
+    
+}
+
+.result-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 1rem 0rem;
+}
+
+.result-title {
+    flex-grow: 1;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right: 1rem;
+}
+
+.result-table {
+    margin-top: 1rem;
+}
+
+.result-date {
+    
+}
