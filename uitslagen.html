@@ -19,13 +19,20 @@
             </div>
         </header>
         <nav>
-            <ul>
+            <ul id = "navigation-list">
                 <li> <a href="index.html">Home</a> </li>
                 <li> <a href="bio.html">Biografie</a> </li>
                 <li> <a href="verslagen.html">Verslagen</a> </li>
                 <li> <a href="uitslagen.html">Uitslagen</a> </li>
                 <li> <a href="prs.html">Persoonlijke records</a> </li>
             </ul>
+            <select id = "navigation-select" onchange="window.location = this.value;">
+                <option value = "index.html">Home</option>
+                <option value = "bio.html">Biografie</option>
+                <option value = "verslagen.html">Verslagen</option>
+                <option selected = "selected" value = "uitslagen.html">Uitslagen</option>
+                <option value = "prs.html">Persoonlijke records</option>
+            </select>
         </nav>
         <div class = "paragraph">
 			<div class = "result-header">

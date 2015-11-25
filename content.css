@@ -66,3 +66,32 @@ h1 {
     
     box-shadow: 0.2rem 0.2rem 0.2rem lightgray;
 }
+
+@media screen and (max-width: 60rem) {
+    .paragraph {
+        margin: 2rem 2rem;
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width: 48rem) {
+    html {
+        font-size: 90%;
+    }
+    h1 {
+        font-size: 1.5rem;
+        text-align: left;
+    }
+}
+
+@media screen and (max-width: 32rem) {
+    html {
+        font-size: 80%;
+    }
+}
+
+@media screen and (max-width: 24rem) {
+    html {
+        font-size: 70%;
+    }
+}

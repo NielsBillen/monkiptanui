@@ -13,10 +13,10 @@ header {
 }
 
 #header-profile-picture {
-    flex: 0 0 10rem;
-    width: 10rem;
-    height: 10rem;
-    border-radius: 5rem;
+    flex: 0 0 8rem;
+    width: 8rem;
+    height: 8rem;
+    border-radius: 4rem;
     border: 0.2em solid skyblue;
     box-sizing: border-box;
     margin-right: 1rem;
@@ -26,13 +26,29 @@ header {
 }
 
 #header-alias {
-    font-size: 5rem;
+    font-size: 4rem;
     padding-right: 1rem;
 }
 
 /*-----------------------------------------------------------------------------
  * Styles for the navigation
  *---------------------------------------------------------------------------*/
+
+#navigation-list {
+}
+
+#navigation-select {
+    display: none;
+    
+    margin: 0.5rem;
+    padding: 0.1rem;
+    border: 1px solid lightgray;
+    
+    background-color: lightblue;
+    font-family: navigation;
+    font-size: 1.2rem;
+    color: white;
+}
 
 nav {
     text-align: center;
@@ -64,4 +80,25 @@ nav > ul > li > a {
     font-size: 1.2rem;
     text-decoration: none;
     font-family: navigation;
+}
+
+
+@media screen and (max-width: 48rem) {
+    #header-alias {
+        font-size: 3rem;
+    }
+    
+    #navigation-list {
+        display: none;
+    }
+    
+    #navigation-select {
+        display: inline-block;
+    }
+}
+
+@media screen and (max-width: 32rem) {
+    #header-alias {
+        font-size: 2rem;
+    }
 }
