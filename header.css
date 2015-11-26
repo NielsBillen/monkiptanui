@@ -25,6 +25,22 @@ header {
     box-shadow: 0em 0em 1em rgba(0, 0, 0, 0.8) inset;
 }
 
+@media screen and (max-width: 24rem) {
+    #header-profile-picture {
+        flex: 0 0 6rem;
+        width: 6rem;
+        height: 6rem;
+        border-radius: 3rem;
+    }
+}
+
+@media screen and (max-width: 16rem) {
+    #header-profile-picture {
+        display: none;
+    }
+}
+
+
 #header-alias {
     font-size: 4rem;
     padding-right: 1rem;
