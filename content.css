@@ -74,7 +74,7 @@ h1 {
     }
 }
 
-@media screen and (max-width: 48rem) {
+@media screen and (max-width: 768px) {
     html {
         font-size: 90%;
     }
@@ -84,13 +84,13 @@ h1 {
     }
 }
 
-@media screen and (max-width: 32rem) {
+@media screen and (max-width: 512px) {
     html {
         font-size: 80%;
     }
 }
 
-@media screen and (max-width: 24rem) {
+@media screen and (max-width: 384px) {
     html {
         font-size: 70%;
     }
