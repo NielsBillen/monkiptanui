@@ -31,11 +31,13 @@
     </head>
     <body>
         <header>
-            <div id = "header-profile-picture"></div>
+            <figure>
+                <img id = "header-profile-picture"></img>
+            </figure>
             <div id = "header-title">
-                <div id = "header-alias">Mon Kiptanui</div>
-                <div id = "header-realname">de website van Raymond Billen</div>
-            </div>
+                <h1 id = "header-alias">Mon Kiptanui</h1>
+                <h2 id = "header-realname">de website van Raymond Billen</h2>
+            </h1>
         </header>
         <nav>
             <ul id = "navigation-list">
@@ -53,13 +55,13 @@
                 <option selected = "selected" value = "prs.html">Persoonlijke records</option>
             </select>
         </nav>
-        <div class = "paragraph">
-            <h1>Marathons</h1>
+        <article class = "paragraph">
+            <h3>Marathons</h3>
             <table id = "marathons">
                 <tr>
-                    <td class = "date">Datum</td>
-                    <td>Locatie</td>
-                    <td>Tijd</td>
+                    <th class = "date">Datum</th>
+                    <th>Locatie</th>
+                    <th>Tijd</th>
                 </tr>
                 <tr>
                     <td class = "date">16 oktober 2005</td>
@@ -87,16 +89,16 @@
                     <td>2u 44min 56sec</td>
                 </tr>
             </table>
-        </div>
+        </article>
         
-        <div class = "paragraph">
-            <h1>Persoonlijke records</h1>
+        <article class = "paragraph">
+            <h3>Persoonlijke records</h3>
             <table>
                 <tr>
-                    <td>Afstand</td>
-                    <td class = "date">Tijd</td>
-                    <td>Locatie</td>
-                    <td>Datum</td>
+                    <th>Afstand</th>
+                    <th class = "date">Tijd</th>
+                    <th>Locatie</th>
+                    <th>Datum</th>
                 </tr>
                 <tr>
                     <td>10 km</td>
@@ -135,18 +137,18 @@
                     <td>13/04/2009</td>
                 </tr>
             </table>
-        </div>
+        </article>
         
-        <div class = "paragraph">
-            <h1>Jaartotalen</h1>
+        <article class = "paragraph">
+            <h3>Jaartotalen</h3>
             <table>
                 <tr>
-                    <td>Jaar</td>
-                    <td>Aantal trainingen</td>
-                    <td>Wedstrijden</td>
-                    <td>Trainings<br>kilometers</td>
-                    <td>Wedstrijd<br>kilometers</td>
-                    <td>Totaal<br>kilometers</td>
+                    <th>Jaar</th>
+                    <th>Aantal trainingen</th>
+                    <th>Wedstrijden</th>
+                    <th>Trainings<br>kilometers</th>
+                    <th>Wedstrijd<br>kilometers</th>
+                    <th>Totaal<br>kilometers</th>
                 </tr>
                 <tr>
                     <td>2009</td>
@@ -181,6 +183,6 @@
                     <td>4145</td>
                 </tr>
             </table>
-        </div>
+        </article>
     </body>
 </html>

@@ -9,7 +9,7 @@ tr {
     border-bottom: 1px solid lightgray;
 }
 
-td {
+th, td {
     padding: 0.5rem 0.8rem;
     vertical-align: top;
 }
