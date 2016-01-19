@@ -16,6 +16,71 @@
     margin-right: 1rem;
 }
 
+.report-content {
+    flex: 1;
+}
+
 .report-date {
     
+}
+
+.report-figure {
+    margin: 1rem;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.report-container {
+    display: flex;
+    align-items: center;
+}
+
+.report-container.horizontal {
+    flex-direction: row;
+}
+
+.report-container.vertical {
+    flex-direction: column;
+}
+
+.report-figure.vertical {
+    width: 100%;
+}
+
+.report-image {
+    padding: 0.4rem;
+    border: 1px solid gray;
+    box-shadow: 0.2rem 0.2rem 0.5rem gray;
+}
+
+.report-image.vertical {
+    width: 80%;
+    max-width: 800px;
+}
+
+.report-image.horizontal {
+    max-width: 300px;
+    width: 80%;
+}
+
+@media screen and (max-width: 768px) {
+    .report-container.horizontal {
+        flex-direction: column;
+    }
+    
+    .report-figure.horizontal {
+        width: 100%;
+    }
+    
+    .report-image.horizontal {
+        width: 80%;
+        max-width: 800px;
+    }
+
+    .report-image.horizontal {
+        max-width: 300px;
+        width: 80%;
+    }
 }
