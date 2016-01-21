@@ -37,6 +37,7 @@
 figcaption {
     font-family: h1;
     margin: 0.5rem;
+    text-align: center;
 }
 
 .report-container {
