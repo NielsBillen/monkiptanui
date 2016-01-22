@@ -68,18 +68,5 @@ footer {
 /* class for items animated with the fade-and-slide-in animation */
 .animation-fade-and-slide-in {
     opacity: 0;
-    animation:fade-and-slide-in ease 1s;
-    animation-fill-mode: forwards;
-    animation-duration: 1s;
     display: inline-block;
-}
-
-/* let irun animate on site load */
-#irun {
-    animation-delay: 0s;
-}
-
-/* delay the doyou with one second */
-#doyou {
-    animation-delay: 1s;
 }
