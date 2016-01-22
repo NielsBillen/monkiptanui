@@ -1,12 +1,16 @@
 table {
+    width: 100%;
     border-collapse: collapse;
-    border: 1px solid lightgray;
+    border: 1px solid rgb(93, 112, 162);
     box-shadow: 0.2rem 0.2rem 0.2rem lightgray;
 }
 
 tr {
-    border-top: 1px solid lightgray;
-    border-bottom: 1px solid lightgray;
+    /*border: 1px solid rgb(93, 112, 162);*/
+}
+
+tr:nth-child(odd) {
+    background-color: rgb(182, 194, 227);
 }
 
 th, td {
@@ -14,8 +18,16 @@ th, td {
     vertical-align: top;
 }
 
-tr:nth-child(even) {
-    background-color: rgba(135, 206, 235, 0.75);
+th {
+    font-family: h1;
+    color: white;
+    background-color: rgb(93, 112, 162);
+}
+
+.result-content {
+    /*display: flex;
+    align-items: center;
+    flex-direction: column;*/
 }
 
 .result {
@@ -24,7 +36,7 @@ tr:nth-child(even) {
 
 .result-row-me {
     font-family: h1;
-    color: darkblue;
+    color: midnightblue;
 }
 
 .result-header {
