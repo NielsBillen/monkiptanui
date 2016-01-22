@@ -22,6 +22,11 @@ tr:nth-child(even) {
     
 }
 
+.result-row-me {
+    font-family: h1;
+    color: darkblue;
+}
+
 .result-header {
     display: flex;
     flex-direction: row;
