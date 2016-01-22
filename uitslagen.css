@@ -14,11 +14,12 @@ tr:nth-child(odd) {
 }
 
 th, td {
-    padding: 0.5rem 0.8rem;
+    padding: 0.5rem 1rem;
     vertical-align: top;
 }
 
 th {
+    padding: 1rem 1rem;
     font-family: h1;
     color: white;
     background-color: rgb(93, 112, 162);
